@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_Playlist"
+    android:gravity="center">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="#3e3b3b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/tvtitleplaylist"
+        android:text="US/UK"
+        android:textSize="30sp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvplaylist"
+        android:layout_below="@+id/tvtitleplaylist">
+    </ListView>
+    <TextView
+        android:text="More Playlist"
+        android:textSize="19sp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_launcher_background"
+        android:id="@+id/tvviewmoreplaylist"
+        android:background="#c9c7c7"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#0a0a0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+</RelativeLayout>
